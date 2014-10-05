@@ -17,17 +17,17 @@ public class UserTest {
 	@Test
 	public void testUser() {
 		assertEquals(1, user.getNumber());
-		assertEquals("alvaro", user.getName());
-		assertEquals("aragoneses", user.getFamilyName());
+		assertEquals("Alvaro", user.getName());
+		assertEquals("Aragoneses", user.getFamilyName());
 	}
 
 	@Test
 	public void testFullName() {
-		assertEquals("alvaro aragoneses", user.fullName());
+		assertEquals("Alvaro Aragoneses", user.fullName());
 	}
 	
 	@Test
 	public void testInitials() {
-		assertEquals("a.a.", user.initials());
+		assertEquals("A.", user.initials());
 	}
 }
