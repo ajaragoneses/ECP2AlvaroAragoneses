@@ -71,5 +71,9 @@ public class Fraction {
 				(denominator * f2.denominator));    
 		return r;
 	}
+	
+	public boolean isImpropia() {
+		return numerator >= denominator;
+	}
     
 }
