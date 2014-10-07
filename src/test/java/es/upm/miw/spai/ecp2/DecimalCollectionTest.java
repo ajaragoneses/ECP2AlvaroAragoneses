@@ -42,4 +42,9 @@ public class DecimalCollectionTest {
 		dc.add(5.0);
 		assertEquals(5.0, dc.higher(), 10e-5);
 	}
+	
+	@Test
+	public void testLower() {
+		assertEquals(1.0, dc.lower(), 10e-5);
+	}
 }
