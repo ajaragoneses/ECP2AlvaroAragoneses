@@ -64,5 +64,12 @@ public class Fraction {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	public Fraction sum(Fraction f2) {
+		Fraction r = new Fraction((numerator * f2.denominator) + 
+				(f2.numerator * denominator),
+				(denominator * f2.denominator));    
+		return r;
+	}
     
 }
