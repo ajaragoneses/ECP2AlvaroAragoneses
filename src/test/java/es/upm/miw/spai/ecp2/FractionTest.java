@@ -20,6 +20,10 @@ public class FractionTest {
 		assertEquals(fraction.isImpropia(), false);
 	 }
 
-
+	@Test
+	public void testSuma() { 
+		Fraction f2 = new Fraction(2,3);
+		assertEquals(fraction.suma(f2).decimal(), new Fraction(7,6).decimal(),0.02);
+	 }
 
 }

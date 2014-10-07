@@ -49,11 +49,13 @@ public class PointTest {
     }
     @Test
     public void testSetX() {
-        assertEquals(pt.setX(1), 1);
+    	pt.setX(1);
+    	assertEquals(pt.getX(),1);
     }
     @Test
     public void testSetY() {
-        assertEquals(pt.setY(10), 10);
+    	pt.setY(10);
+    	assertEquals(pt.getY(),10);
     } 
     
 
