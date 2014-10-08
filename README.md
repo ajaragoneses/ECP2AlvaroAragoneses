@@ -1,29 +1,13 @@
 # `SPAI`
-## Ejercicio colaborativos entre alumnos: ECP2
-El objetivo es instruir al alumno en el desarrollo de software colaborativo.
 
-Cada alumno deberá realizar dos roles: `Arquitecto de software` y `Programador`.
+## Estado de las Ramas
+* master: ![Travis Status](https://travis-ci.org/ajaragoneses/ECP2AlvaroAragoneses.svg?branch=master)
+* develop: ![Travis Status](https://travis-ci.org/ajaragoneses/ECP2AlvaroAragoneses.svg?branch=develop)
+* develop-ajaragoneses: ![Travis Status](https://travis-ci.org/ajaragoneses/ECP2AlvaroAragoneses.svg?branch=develop-ajaragoneses)
+* develop-rpuerta85: ![Travis Status](https://travis-ci.org/ajaragoneses/ECP2AlvaroAragoneses.svg?branch=develop-rpuerta85)
+* develop-magacoelho: ![Travis Status](https://travis-ci.org/ajaragoneses/ECP2AlvaroAragoneses.svg?branch=develop-magacoelho)
+* develop-robinparadise: ![Travis Status](https://travis-ci.org/ajaragoneses/ECP2AlvaroAragoneses.svg?branch=develop-robinparadise)
 
-Sólo existe una norma básica: esta `prohibido hablar entre los integrantes`, sólo se podrán comunicar vía tickets.
+## Wiki
 
-## Arquitecto de software
-Se parte de un software ya desarrollado,
-y su función será coordinar y supervisar la modificación del mismo a traves de tickets y la wiki.
-Para ello, tendrá la colaboración de tres `Programadores`.
-
-**No podrá realizar ninguna modificación directa del software**.
-
-## Programador
-Su función será realizar sus tickets e intentar seguirlos *fielmente* y con la *rapidez* necesaria...
-
-y sin mala intención **;-)**.
-
-## Documentación detallada
-Mirar en la [wiki][] del proyecto
-
-## Licencia
-**Máster de Ingeniería Web** por la **Universidad Politécnica de Madrid**.
-
-*&copy;Jesús Bernal Bermúdez*.
-
- [wiki]: https://github.com/miw-upm/ECP2/wiki
+[Acceso a la Wiki del proyecto](https://github.com/ajaragoneses/ECP2AlvaroAragoneses/wiki)
