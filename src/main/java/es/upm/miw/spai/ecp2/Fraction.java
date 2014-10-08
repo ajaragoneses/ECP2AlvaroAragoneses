@@ -1,5 +1,9 @@
 package es.upm.miw.spai.ecp2;
 
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 /**
  * Conceptos: Las fracciones propias son aquellas cuyo numerador es menor que el
  * denominador
@@ -59,8 +63,20 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+
      public boolean isEqual(Fraction f){
    	 return (this.getNumerator()*f.getDenominator()==this.getDenominator()*f.getNumerator());
   }
+
+
+    
+    public boolean isImpropia(){
+    	return false;
+    }
+    
+    public Fraction suma(Fraction fraction){
+    	return null;
+    }
+    
 
 }
