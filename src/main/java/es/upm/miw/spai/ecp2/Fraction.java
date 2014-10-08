@@ -60,6 +60,6 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     public boolean isEqual(Fraction f){
-       return (this.getNumerator()==f.getNumerator()&& this.getDenominator()==f.getDenominator());
-    }
+    	 return (this.getNumerator()*f.getDenominator()==this.getDenominator()*f.getNumerator());
+   }
 }
