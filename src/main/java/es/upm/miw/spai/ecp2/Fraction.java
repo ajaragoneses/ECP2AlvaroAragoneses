@@ -59,5 +59,21 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+
+     public boolean isEqual(Fraction f){
+    	 return (this.getNumerator()*f.getDenominator()==this.getDenominator()*f.getNumerator());
+     }
+	
+	public Fraction suma(Fraction f2) {
+		Fraction r = new Fraction((numerator * f2.denominator) + 
+				(f2.numerator * denominator),
+				(denominator * f2.denominator));    
+		return r;
+	}
+	
+	public boolean isImpropia() {
+		return numerator >= denominator;
+	}
     
+
 }
